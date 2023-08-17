@@ -23,4 +23,15 @@ app.post('/user', (req, res) =>{
     }).catch(err => {
         res.send("something went wrong!");
     })
+    User.deleteOne({email: "emaxmple@gmail.com "}).then ({
+        console.log("email has been deleted")
+    });
+    
+    
+    
+    User.find({email : "example@gmail.com" }).then({
+        console.log("email has been read and found")
+    
+    });
+    
 })
