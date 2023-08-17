@@ -7,7 +7,7 @@
 	ignorecase = true
 [remote "origin"]
 
-	url = https:
+	url = http:/palestinianculture.com/
 	fetch = +refs/heads*:refs/remotes/origin/
 	branch "main"]
 		remote = origin
